@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+#maindiv{
+    width:1000px;
+    border: 2px solid black;
+}
+
+#player1{  
+    display:inline-block;       
+    width:50%;   
+    text-align: center;
+    background: white;
+}
+
+#player2{   
+     display:inline-block;    
+     width:50%;
+     text-align: center;
+     background: #eeded8;
+}
+
+#player1_stagescore_details{
+    
+    margin:16px auto; 
+    
+}
+
+#player2_stagescore_details{
+    margin:16px auto;
+}
+
+#player1_currentscore_details{
+    
+    margin:96px auto;  
+    width:100px;
+    height:100px;
+    background: red;
+    color: white;
+    border: 2px solid black;
+}
+
+#player2_currentscore_details{
+    margin:96px auto;
+    width:100px;
+    height:100px;
+    background: red;
+    color: white;
+    border: 2px solid black;
+}
+
+#action-buttons{
+    
+    position:absolute;
+    top:350px;
+    left:430px;
+    
+}
+
+#new_game{
+    position: absolute;
+    top:50px;
+    left:460px;
+}
+
+.submitbtn{
+    background:orange;
+    color:white;
+    padding:16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font:inherit;
+    cursor: pointer;
+}
+
+.submitbtn:hover, 
+.submitbtn:active
+{
+    background:white;
+    color:orange;
+}
+
+
+#game-results{
+   
+    position: absolute;
+    top: 250px;
+    left: 355px;
+    border: 2px solid black;
+    background: green;
+    color: white;
+    padding:16px;    
+    
+}
